@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<SlidingDrawer 
+		android:layout_height="wrap_content" 
+		android:handle="@+id/imageView" 
+		android:content="@+id/linear_layout" 
+		android:id="@+id/slide" 
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+		<ImageView 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:id="@id/imageView" 
+			android:src="@drawable/app"
+			android:background="@drawable/handle" />
+		<LinearLayout 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:id="@id/linear_layout" 
+			android:background="#FFFFFFFF"
+			android:gravity="center">
+			<Button 
+				android:text="My button" 
+				android:id="@+id/button" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+	</SlidingDrawer>
+</LinearLayout>

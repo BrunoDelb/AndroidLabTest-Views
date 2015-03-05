@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Training</string>
+    <string name="linear_layout_8_vertical">Vertical</string>
+    <string name="linear_layout_8_horizontal">Horizontal</string>
+    <string name="linear_layout_8_top">Top</string>
+    <string name="linear_layout_8_middle">Middle</string>
+    <string name="linear_layout_8_bottom">Bottom</string>
+    <string name="linear_layout_8_left">Left</string>
+    <string name="linear_layout_8_center">Center</string>
+    <string name="linear_layout_8_right">Right</string>
+    <string name="linear_layout_8_b">B</string>
+    <string name="linear_layout_8_c">C</string>
+</resources>

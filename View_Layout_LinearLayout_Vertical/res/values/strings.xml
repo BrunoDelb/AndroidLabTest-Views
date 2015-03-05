@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Training</string>
+    <string name="linear_layout_2_top">This is the top view.</string>
+    <string name="linear_layout_2_middle">This is the middle view. It has more text in it than either the top view or the bottom view.</string>
+    <string name="linear_layout_2_bottom">This is the bottom view.</string>
+</resources>

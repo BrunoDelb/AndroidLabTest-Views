@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TableRow android:layout_width="match_parent" >
+  
+		<TextView  
+			android:text="Email:" />
+
+		<EditText
+		    android:layout_width="match_parent"
+		    android:inputType="text|textEmailAddress" />
+
+	</TableRow>
+	<TableRow>  
+		<TextView  
+			android:text="Password" />
+
+		<EditText android:inputType="textPassword" />
+
+	</TableRow>
+		<TableRow>  
+		<TextView  
+			android:text="Signed decimal number:" />
+		<EditText  
+			android:inputType="number|numberSigned|numberDecimal" />
+	</TableRow>
+	<TableRow>  
+		<TextView  
+			android:text="Date:" />
+		<EditText  
+			android:inputType="date" />
+	</TableRow>
+	<TableRow>  
+		<TextView  
+			android:text="Multi-line text:" />
+		<EditText  
+			android:inputType="text|textMultiLine|textAutoCorrect"
+			android:minLines="4"
+			android:gravity="top" />
+	</TableRow>
+</TableLayout>
