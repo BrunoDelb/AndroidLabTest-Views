@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:6
+-keep class com.mma.androidlabtest.Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class com.mma.androidlabtest.Main2 { <init>(...); }
+
